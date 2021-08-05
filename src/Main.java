@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int balance = 2_000_000_000;
-        int transfer = 500_000_000;
-        int total = transfer + balance;
-        System.out.println(total);
+        double regularBonus = 0.3;
+        double specialBonus = 0.6;
+        double totalBonus = regularBonus + specialBonus;
+        System.out.println(totalBonus);
     }
 }
